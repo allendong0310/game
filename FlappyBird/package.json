@@ -1,0 +1,29 @@
+{
+  "name": "flappybird",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c --environment dev -w",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PengJiyuan/FlappyBird.git"
+  },
+  "keywords": [
+    "flappy",
+    "bird"
+  ],
+  "author": "PengJiyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PengJiyuan/FlappyBird/issues"
+  },
+  "homepage": "https://github.com/PengJiyuan/FlappyBird#readme",
+  "devDependencies": {
+    "rollup": "^0.66.6",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-butternut": "^0.1.0"
+  }
+}
