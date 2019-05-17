@@ -32,7 +32,10 @@ header title{
 }
 header span {
 	margin-left: 12px;
-	font-family: Roboto-Medium;
+	font-family: Roboto-Bold;
 	font-size: 18px;
 	color: #3C3C3C;
+}
+p {
+	font-family: Roboto-Regular;
 }
