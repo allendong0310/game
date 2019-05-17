@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
   font-family: Roboto-Regular;
   src: local('Roboto'), local('Roboto-Regular');
 }
@@ -14,7 +14,7 @@
 @font-face {
   font-family: Roboto-Medium;
   src: local('Roboto Medium'), local('Roboto-Medium');
-}*/
+}
 
 * {
 	border:0;
@@ -32,7 +32,7 @@ header title{
 }
 header span {
 	margin-left: 12px;
-	font-family: Roboto-Black;
+	font-family: Roboto-Bold;
 	font-size: 18px;
 	color: #3C3C3C;
 }
