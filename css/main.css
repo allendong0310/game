@@ -1,21 +1,3 @@
-/*@font-face {
-  font-family: Roboto-Regular;
-  src: local('Roboto'), local('Roboto-Regular');
-}
-@font-face {
-  font-family: Roboto-Bold;
-  src: local('Roboto Bold'), local('Roboto-Bold');
-  font-weight: 700;
-}
-@font-face {
-  font-family: Roboto-BoldCondensed;
-  src: local('Roboto Condensed Bold'), local('RobotoCondensed-Bold');
-}
-@font-face {
-  font-family: Roboto-Medium;
-  src: local('Roboto Medium'), local('Roboto-Medium');
-}*/
-
 * {
 	border:0;
 	padding: 0px;
@@ -32,7 +14,7 @@ header title{
 }
 header span {
 	margin-left: 12px;
-	font-family: Roboto-Black;
+	font-weight: 700;
 	font-size: 18px;
 	color: #3C3C3C;
 }
