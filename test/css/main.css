@@ -1,0 +1,171 @@
+* {
+	border:0;
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	margin: 26px 20px 48px;
+	font-family:'Roboto',Roboto Lt;
+}
+
+header title{
+	margin-left: 2px;
+}
+header span {
+	margin-left: 12px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #3C3C3C;
+}
+.adWrap {
+	width: 320px;
+	height: 50px;
+	margin-top: 11px;
+	margin: 0 auto;
+}
+.adWrap._100 {
+	width: 320px;
+	height: 100px;
+	margin-top: 24px;
+}
+.adWrap._250 {
+	width: 320px;
+	height: 250px;
+	margin-top: 24px;
+}
+.main {
+	margin-top: 24px;
+}
+.main .answer {
+	font-weight: 700;
+	font-size: 18px;
+	color: #FA8D01;
+}
+.main .title {
+	font-weight: bold;
+	font-size: 14px;
+	color: #4B4B4B;
+}
+.main .input {
+	display: table;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+.main .input .number {
+	height: 34px;
+	width: 210px;
+	background: #fff;
+	margin-left: 9px;
+	border: 1px solid #6FCB0A;
+	border-radius: 4px;
+	float: left;
+	outline: none;
+}
+.main .input .number option{
+	background: #fff;
+	border: 1px solid #6FCB0A;
+}
+.main .input .submit {
+	height: 36px;
+	width: 84px;
+	margin-left: 15px;
+	background: #6FCB0A;
+	border-radius: 4px;
+	float: right;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFFFFF;
+	outline: none;
+}
+.imageWrap {
+	width: 100%;
+    height: 0;
+    padding-bottom: 112%;
+    background: url(./../source/yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 12px;
+}
+.main .desc {
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 24px;
+}
+
+.share {
+	margin-top: 12px;
+	text-align: center;
+}
+
+.icon button {
+	width: 30px;
+	height: 30px;
+	border-radius: 8px;
+	background-size: cover;
+	display: inline-block;
+	margin-right: 10px;
+	outline: none;
+}
+.icon button[data-sharer="facebook"] {
+	background-image: url(./../source/fb.png);
+}
+.icon button[data-sharer="twitter"] {
+	background-image: url(./../source/twitter.png);
+}
+.icon button[data-sharer="pinterest"] {
+	background-image: url(./../source/pinterest.png);
+}
+.icon button[data-sharer="tumblr"] {
+	background-image: url(./../source/tumblr.png);
+}
+.icon button[data-sharer="reddit"] {
+	background-image: url(./../source/reddit.png);
+}
+.icon button[data-sharer="link"] {
+	background-image: url(./../source/link.png);
+}
+
+footer {
+	margin-top: 36px;
+}
+footer .split span{
+	float: left;
+	display: inline-block;
+}
+footer .split span.split2 {
+	float: right;
+    transform: rotate(180deg);
+}
+footer .split div {
+	text-align: center;
+}
+footer .suggestion_wrap {
+	margin-top: 24px;
+}
+footer .suggestion_wrap .suggestion {
+	margin-top: 24px;
+}
+footer .suggestion_wrap .suggestion .text {
+	display: inline-block;
+}
+footer .suggestion_wrap .suggestion .text .title {
+	font-weight: 700;
+	font-size: 14px;
+	color: #4B4B4B;
+}
+footer .suggestion_wrap .suggestion .text .desc {
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 9px;
+}
+footer .suggestion_wrap .suggestion .text .number {
+	font-size: 14px;
+	color: #9A9A9A;
+	margin-top: 10px;
+}
+footer .suggestion_wrap .suggestion .icon {
+	width: 72px;
+	height: 72px;
+	float: right;
+}
