@@ -6,7 +6,7 @@
 
 body {
 	margin: 26px 20px 48px;
-	font-family:'Roboto',Roboto Lt;
+	font-family:'Roboto',Roboto Lt, Helvetica Neue, Arial, sans-serif ;
 }
 
 header title{
@@ -17,4 +17,390 @@ header span {
 	font-weight: 700;
 	font-size: 18px;
 	color: #3C3C3C;
+}
+.adWrap {
+	width: 320px;
+	height: 50px;
+	margin-top: 11px;
+	margin: 0 auto;
+}
+.adWrap._100 {
+	width: 320px;
+	height: 100px;
+	margin-top: 24px;
+}
+.adWrap._250 {
+	width: 320px;
+	height: 250px;
+	margin-top: 24px;
+}
+
+/*main*/
+.main {
+	margin-top: 24px;
+}
+.main .answer {
+	font-weight: 700;
+	font-size: 18px;
+	color: #FA8D01;
+}
+.main .title {
+	font-weight: bold;
+	font-size: 14px;
+	color: #4B4B4B;
+}
+.main .input {
+	display: table;
+	margin: 0 auto;
+	margin-top: 18px;
+}
+.main .input .number {
+	height: 34px;
+	width: 210px;
+	background: #fff;
+	margin-left: 9px;
+	border: 1px solid #6FCB0A;
+	border-radius: 4px;
+	float: left;
+	outline: none;
+}
+.main .input .number option{
+	background: #fff;
+	border: 1px solid #6FCB0A;
+}
+.main .input .submit {
+	height: 36px;
+	width: 84px;
+	margin-left: 15px;
+	background: #6FCB0A;
+	border-radius: 4px;
+	float: right;
+	font-weight: 700;
+	font-size: 14px;
+	color: #FFFFFF;
+	outline: none;
+}
+.imageWrap {
+	width: 100%;
+    height: 0;
+    padding-bottom: 112%;
+    background: url(./../source/yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 12px;
+}
+.main .desc {
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 14px;
+	font-weight: 600;
+}
+.main .desc .suggest{
+	font-size: 14px;
+	margin-top: 10px;
+	padding-top: 5px;
+    border-top: 1px solid #d8d8d8;
+}
+.main .desc #suggestion {
+	font-weight: 100;
+}
+
+/*-----------------*/
+.enneagram {
+	width: 100%;
+    height: 0;
+    padding-bottom: 70%;
+    background: url(./../source/enneagram.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 12px;
+}
+.main .title .tested {
+	font-weight: 600px;
+	font-size: 14px;
+	color: #9A9A9A;
+	margin-top: 13px;
+}
+.main .startDesc {
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 24px;
+	font-weight: 200px;
+}
+.main .startButton {
+	margin-top: 26px;
+	text-align: center;
+}
+.main .startButton .submit {
+	width: 200px;
+	height: 34px;
+	background: #6FCB0A;
+	/*border: 1px solid #3B7000;*/
+	border-radius: 4px;
+	color: #fff;
+	outline: none;
+}
+.question .title {
+	margin-top: 24px;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #D8D8D8;
+	font-size: 18px;
+	color: #363636;
+	line-height: 21px;
+	padding-bottom: 12px;
+	margin-bottom: 27px;
+}
+.question .title span {
+	color: #FA8D01;
+}
+
+.radio-check {
+    position: relative;
+    height: 35px;
+	margin-bottom: 24px;
+}
+.radio-check > input {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height:20px;
+    opacity: 0;
+}
+.radio-check > label {
+    position: absolute;
+    left: 30px;
+    top: 0px;
+	font-size: 14px;
+	color: #4B4B4B;
+	padding-top: 3px;
+}
+.radio-check > label:before {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+.radio-check > label:after {
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-top: 6px;
+    margin-left: 6px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+.radio-check input[type='radio']:checked + label:before {
+    border-color: #6FCB0A;
+}
+.radio-check input[type='radio']:checked + label:after {
+    background: #6FCB0A;
+}
+
+/*result*/
+.main .type .image{
+	float: left;
+	width: 143px;
+	height: 129px;
+	border-radius: 4px;
+	background-size: cover;
+}
+.main .type .text{
+	float: right;
+}
+.main .type .text li{
+	box-sizing: border-box;
+	width: 168px;
+	height: 21px;
+	background:  #FFDDA6;
+	border-radius: 4px;
+	font-size: 16px;
+	color: #AC4F00;
+	margin-top: 6px;
+	margin-bottom: 10px;
+    list-style: none;
+    padding-left: 12px;
+	line-height: 21px;
+}
+.main .type .text .weight {
+	background: #FBB340;
+}
+.main .desc .chooseDesc {
+	font-weight: 700px;
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 6px;
+}
+.main .desc .list {
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 12px;
+	font-weight: 100;
+}
+.main .desc .list li {
+	list-style: none;
+	margin-top: 10px;
+}
+.clear {
+	clear: both;
+}
+/*pressureImage*/
+.pressureImage {
+	width: 100%;
+	margin-top: 12px;
+	height: 230px;
+}
+.pressureImage .kw {
+	box-sizing: border-box;
+	float: left;
+	width: 70%;
+	height: 230px;
+	border: 1px solid #4B4B4B;
+	border-right: 0;
+}
+.pressureImage .kw .gd {
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	height: 30px;
+}
+.pressureImage .kw span {
+	box-sizing: border-box;
+	float: left;
+	width: 25%;
+	height: 100px;
+	border-right: 1px solid #4B4B4B;
+	text-align: center;
+	line-height: 100px;
+}
+.pressureImage .kw .up span {
+	border-bottom: 1px solid #4B4B4B;
+}
+.pressureImage .kw .down span {
+	border-top: 1px solid #4B4B4B;
+}
+.pressureImage .road {
+	float: left;
+	width: 10%;
+	height: 100px;
+	border-top: 1px solid #4B4B4B;
+}
+.pressureImage .water {
+	box-sizing: border-box;
+	float: left;
+	width: 18%;
+	height: 230px;
+	border-right: 1px solid #4B4B4B;
+}
+.pressureImage .water ._water {
+	box-sizing: border-box;
+	width: 100%;
+	height: 150px;
+	border: 1px solid #4B4B4B;
+	border-right: 0;
+	text-align: center;
+	line-height: 150px;
+}
+.pressureImage .water .door {
+	box-sizing: border-box;
+	width: 100%;
+	height: 20px;
+	margin-top: 60px;
+	background: #eee;
+	text-align: center;
+}
+/*------------*/
+
+.share {
+	margin-top: 24px;
+	text-align: center;
+}
+.icon button {
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	background-size: cover;
+	display: inline-block;
+	margin-right: 10px;
+	outline: none;
+}
+.icon button[data-sharer="facebook"] {
+	background-image: url(./../source/fb.png);
+}
+.icon button[data-sharer="twitter"] {
+	background-image: url(./../source/twitter.png);
+}
+.icon button[data-sharer="pinterest"] {
+	background-image: url(./../source/pinterest.png);
+}
+.icon button[data-sharer="tumblr"] {
+	background-image: url(./../source/tumblr.png);
+}
+.icon button[data-sharer="reddit"] {
+	background-image: url(./../source/reddit.png);
+}
+.icon button[data-sharer="link"] {
+	background-image: url(./../source/link.png);
+}
+
+footer {
+	margin-top: 36px;
+}
+footer .split span{
+	float: left;
+	display: inline-block;
+}
+footer .split span.split2 {
+	float: right;
+    transform: rotate(180deg);
+}
+footer .split div {
+	text-align: center;
+}
+footer .suggestion_wrap {
+	margin-top: 24px;
+}
+footer .suggestion_wrap .suggestion {
+	margin-top: 24px;
+	position: relative;
+}
+footer .suggestion_wrap .suggestion .text {
+	display: inline-block;
+}
+footer .suggestion_wrap .suggestion .text .title {
+	font-weight: 700;
+	font-size: 14px;
+	color: #4B4B4B;
+}
+footer .suggestion_wrap .suggestion .text .desc {
+	font-size: 14px;
+	color: #4B4B4B;
+	margin-top: 9px;
+}
+footer .suggestion_wrap .suggestion .text .number {
+	font-size: 14px;
+	color: #9A9A9A;
+	margin-top: 10px;
+}
+footer .suggestion_wrap .suggestion .icon {
+	width: 72px;
+	height: 72px;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
